@@ -99,5 +99,81 @@ Dockerfile
 
 requirements.txt
 
+---
+
+# 8: TẠO APP
+
+- Bước 1: Chạy lệnh `docker compose exec django_app python manage.py startapp management`
+
+- Bước 2: Kiểm tra `ls django`
+
+<img width="1146" height="682" alt="{EB37F68E-D33E-4199-9455-7F7C841C9A4F}" src="https://github.com/user-attachments/assets/1267db7d-358f-4715-bbd7-a33b9b81a133" /></p>
+
+---
+
+## 9: CẤU HÌNH DATABASE
+
+- Bước 1: Mở settings.py `nano django/pawnshop/settings.py`
+
+- Bước 2: Tìm DATABASES -> Trong nano bấm **Ctrl + M** -> Gõ **DATABASES**
+
+- Bước 3: Tìm đến và sửa thành như sau
+
+<img width="1184" height="740" alt="{B21D9A1C-0BC8-44BE-86AF-65BF12D2C42C}" src="https://github.com/user-attachments/assets/e9024252-3fce-4bd9-8602-fe3d7827fae0" /></P>
+
+- Bước 4: Thêm app -> tìm INSTALLED_APPS -> Thêm **'management',**
+
+<img width="958" height="593" alt="image" src="https://github.com/user-attachments/assets/33ff51d8-6894-4303-a3f5-6627f63faedf" /></p>
+
+---
+
+## 10: TẠO DATABASE MODEl
+
+- Bước 1: Mở model.py bằng lệnh `nano django/management/models.py`
+
+- Bước 2: Thêm nội dung
+
+<img width="1302" height="797" alt="{287D4B98-57C0-4DF4-A8F2-D54804CF87B1}" src="https://github.com/user-attachments/assets/339d97fa-3551-41ef-9478-c365130d4b03" /></p>
+
+- Bước 3: Đăng ký model vào admin bằng lệnh `nano django/management/admin.py`
+
+<img width="1211" height="785" alt="{A1CB2AFE-F08D-4D98-9A96-86D2D8A6BA80}" src="https://github.com/user-attachments/assets/7e2997cb-2d43-41a7-a1b7-363a0acf591f" /></p>
+
+---
+
+## 11: TẠO MIGRATION
+
+- Chạy lệnh: `docker compose exec django python manage.py makemigrations`
+
+<img width="1213" height="803" alt="{9292682E-22C6-42A4-A472-35458D64D872}" src="https://github.com/user-attachments/assets/b57b04a7-b7de-4667-b63c-0a371832df6a" /></p>
+
+- APPLY DATABASE bằng lệnh `docker compose exec django python manage.py migrate`
+
+<img width="1214" height="798" alt="{8C172D22-B954-40C6-8B2E-650262AFBDCD}" src="https://github.com/user-attachments/assets/a2a6f8c6-1d7d-443f-959f-1c652d7bb480" /></p>
+
+---
+
+## 12: TẠO SUPERUSER
+
+- Chạy lệnh `docker compose exec django python manage.py createsuperuser`
+
+<img width="890" height="590" alt="{EE0A32BE-3308-4299-9374-C5032C3CB8B8}" src="https://github.com/user-attachments/assets/8bb3a2ca-ec97-4ace-ad84-f9a41f668746" /></p>
+
+👉 Thực hiện điền các thông tin username & password 
+
+---
+
+# 13: CHẠY WEB
+
+- Truy cập django admin bằng địa chỉ: `http://IP_UBUNTU:8000/admin`
+
+<img width="1920" height="1028" alt="{AB088CF6-ECDE-4A8B-B52C-284D7ACA8DB0}" src="https://github.com/user-attachments/assets/f50964cc-6a31-4eb6-b148-2116057a7ddf" /></p>
+
+Lưu ý: Nếu không truy cập được có thể là do cơ chế bảo mật của django, ip sử dụng chưa được khai báo trong danh sách người quen (allowed Hosts). Để khắc phục tình trạng này cần phải khai báo ip trong file settings.py hoặc để dễ dàng cho việc học tập có thể cho phép tất cả.
+
+<img width="788" height="640" alt="{F1460C89-28BA-4A33-BC59-E296D1635735}" src="https://github.com/user-attachments/assets/aee75b6c-400f-4bab-94ed-32b3bb2539d7" /></p>
+
+
+
 
 
