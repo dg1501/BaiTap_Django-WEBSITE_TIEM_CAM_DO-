@@ -169,9 +169,68 @@ requirements.txt
 
 <img width="1920" height="1028" alt="{AB088CF6-ECDE-4A8B-B52C-284D7ACA8DB0}" src="https://github.com/user-attachments/assets/f50964cc-6a31-4eb6-b148-2116057a7ddf" /></p>
 
-Lưu ý: Nếu không truy cập được có thể là do cơ chế bảo mật của django, ip sử dụng chưa được khai báo trong danh sách người quen (allowed Hosts). Để khắc phục tình trạng này cần phải khai báo ip trong file settings.py hoặc để dễ dàng cho việc học tập có thể cho phép tất cả.
+<img width="1920" height="1022" alt="{7B7FDD7B-836F-48CD-8399-9856CED27B18}" src="https://github.com/user-attachments/assets/764d34f8-6a92-4950-8ee9-278461ee959c" /></p>
+
+👉 Lưu ý: Nếu không truy cập được có thể là do cơ chế bảo mật của django, ip sử dụng chưa được khai báo trong danh sách người quen (allowed Hosts). Để khắc phục tình trạng này cần phải khai báo ip trong file settings.py hoặc để dễ dàng cho việc học tập có thể cho phép tất cả.
 
 <img width="788" height="640" alt="{F1460C89-28BA-4A33-BC59-E296D1635735}" src="https://github.com/user-attachments/assets/aee75b6c-400f-4bab-94ed-32b3bb2539d7" /></p>
+
+---
+
+# 14: TEST CRUD
+
+- Bước 1: Thêm dữ liệu
+
+1) Thêm khách hàng
+
+<img width="1920" height="985" alt="{03D762EA-6591-4FD2-8302-351869F91237}" src="https://github.com/user-attachments/assets/37ceb3fb-0579-4726-903d-c723d52acdb3" /></p>
+
+2) Thêm Giao dịch
+
+<img width="1920" height="1020" alt="{96D78736-36C0-4E62-BD1B-0D7261BBD0EE}" src="https://github.com/user-attachments/assets/f9461308-a2d4-43ed-8ce2-8ea6b83aeb30" /></p>
+
+---
+
+## 15: TEST PHPMYADMIN
+
+- Truy cập địa chỉ `http://IP_UBUNTU:8888`
+
+<img width="1920" height="1028" alt="image" src="https://github.com/user-attachments/assets/a08369e6-2d40-41f5-94d1-680e772b0b40" /></P>
+
+- Kiểm tra các bảng
+
+<img width="1920" height="1017" alt="{EE9EBC7F-45DB-48E4-90E5-5D4D7F02EEB0}" src="https://github.com/user-attachments/assets/86987a98-4899-4780-8f31-5b02f606c4d8" /></p>
+
+<img width="1920" height="1027" alt="{F57847B3-F13B-4651-B077-E455C71635BC}" src="https://github.com/user-attachments/assets/98000560-6577-4172-bb5b-9e4a2652efc5" /></p>
+
+<img width="1920" height="1022" alt="{A18F0037-4DA6-4C50-BFC3-7C384E6DB141}" src="https://github.com/user-attachments/assets/76b2e438-2f40-4cad-ae69-df7ddb28485e" /></p>
+
+---
+
+## 16: TẠO TEMPLATE HTML
+
+- Bước 1: Tạo thư mục template `mkdir -p django/management/templates`
+
+- Bước 2: Tạo file home.html `nano django/management/templates/home.html`
+
+- Bước 3: Thêm nội dung
+
+<img width="1137" height="826" alt="{5976C949-B8AA-4640-BEBA-DAFB1E7E6559}" src="https://github.com/user-attachments/assets/4c55dbc8-a953-4fc2-8045-3a16ac111ab2" /></p>
+
+- Bước 4: Tạo file views.py `nano django/management/views.py`
+
+<img width="1141" height="826" alt="{3444BC36-CA06-419F-8820-D7B977DEABAA}" src="https://github.com/user-attachments/assets/155ee429-8891-432f-a08b-b195609341dc" /></p>
+
+- Bước 5: Tạo file urls.py `nano django/pawnshop/urls.py`
+
+<img width="1144" height="828" alt="{842DF8CC-CC9D-4896-9D3C-3AB791B4BF53}" src="https://github.com/user-attachments/assets/4a9d32d2-8564-40a9-beab-a134caeb3d23" /></p>
+
+
+
+
+
+
+
 
 
 
