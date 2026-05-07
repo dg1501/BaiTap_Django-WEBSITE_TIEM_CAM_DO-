@@ -225,6 +225,50 @@ requirements.txt
 
 <img width="1144" height="828" alt="{842DF8CC-CC9D-4896-9D3C-3AB791B4BF53}" src="https://github.com/user-attachments/assets/4a9d32d2-8564-40a9-beab-a134caeb3d23" /></p>
 
+--- 
+
+## 17: TEST WEB
+
+- Truy cập địa chỉ 'http://172.31.174.131:8000/`
+  
+<img width="1920" height="1029" alt="{50C5AA8C-E753-4E64-A331-C358D3D4D7E3}" src="https://github.com/user-attachments/assets/a2d1fd3d-5cd1-42e6-9861-86aabb4418bc" /></p>
+
+---
+
+## 18: PUBLIC DJANGO LÊN SUBDOMAIN BẰNG CLOUDFLARE TUNNEL
+
+- Bước 1: Dowload claudfare tunnel bằng lệnh `wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb`
+
+<img width="1149" height="832" alt="image" src="https://github.com/user-attachments/assets/2dba8b73-c28a-4b7f-8ee7-8dea4813ac02" /></p>
+
+- Bước 2: Cài đặt `sudo dpkg -i cloudflared-linux-amd64.deb`
+
+- Bước 3: Kiểm tra `cloudflared --version`
+
+<img width="836" height="613" alt="{810FF189-36A5-4CC8-8F51-A17ABC56EBE5}" src="https://github.com/user-attachments/assets/c5ea610d-f430-4dbd-9bd3-a527a2b02b9d" /></p>
+
+---
+
+## 19: LOGIN CLOUDFLARE
+
+- Chạy lệnh 'cloudflared tunnel login` sẽ sinh ra 1 địa chỉ để login vào claudfare tunnel
+
+- Truy cập địa chỉ đó trên trình duyệt
+
+<img width="835" height="606" alt="{CA1C8789-0390-475A-A8D8-DBF4E66E441D}" src="https://github.com/user-attachments/assets/c1d21de0-fa73-494a-9b2d-7fc2e5196bf3" /></p>
+
+- Chọn đúng domain -> Chọn Authorize
+
+<img width="1410" height="745" alt="{4A182B01-1A62-4CB8-BEFD-27E95C016FF4}" src="https://github.com/user-attachments/assets/6721c93a-37c3-4e8f-90b9-8cb3125a1064" /></p>
+
+👉 Sau khi click sẽ hiện thông báo 
+
+<img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/75956c0e-12e7-4157-8af1-d35d8790224f" /></p>
+
+
+
+
+
 
 
 
