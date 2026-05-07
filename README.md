@@ -47,5 +47,46 @@
 
 - Bước 2: Dán nội dung sau
 
+<img width="991" height="671" alt="{E79F6C5D-B041-49D1-AD38-F1E7A486CD2A}" src="https://github.com/user-attachments/assets/2d90bc7e-3f9f-4884-ae54-c1ce9a8a15a8" /></p>
+
+---
+
+## 5: TẠO FILE DOCKER - COMPOSE.YML
+
+- Bước 1: Quay lại thư mục gốc `cd ..`
+
+<img width="1233" height="820" alt="{C2F9A4E1-EAB4-4CFF-BD18-7F24D650DE3A}" src="https://github.com/user-attachments/assets/2793313a-166d-46d1-8c7e-191a5002f972" /></p>
+
+- Bước 2: Tạo file docker - compose.yml `nano docker-compose.yml`
+
+- Bước 3: Dán nội dung sau
+
+<img width="1234" height="815" alt="{645ACD9A-970D-404E-B11A-724F33FB92D2}" src="https://github.com/user-attachments/assets/7a0f8eea-8606-4ff8-a8e5-1e62c1cbef0d" /></p>
+
+---
+
+## 6: TIẾN HÀNH BUILD CONTAINER
+
+- Bước 1: Build bằng lệnh `docker compose up -d --build`
+
+<img width="999" height="661" alt="{D24E4F6D-0BBE-4CB3-B635-C3A451C0B083}" src="https://github.com/user-attachments/assets/d2069169-2b3a-4f18-802b-ab00aef82832" /></p>
+
+- Bước 2: Kiểm tra container bằng lệnh `docker ps`
+
+<img width="1175" height="667" alt="{61DE3E6B-2A19-4B82-8A6B-8EE350CDA0A9}" src="https://github.com/user-attachments/assets/1c1db0b6-19cd-4936-89fb-9325df2f54d7" /></p>
+
+👉 Kết quả phải thấy 3 service: **mariadb + phpmyadmin + django_app** 
+
+---
+
+## 7: TẠO DJANGO PROJECT
+
+- Bước1: chạy lệnh `docker compose exec django django-admin startproject pawnshop .`
+
+<img width="1171" height="663" alt="{D74BE14D-7AC8-470E-8073-DFDCC0EBD8E4}" src="https://github.com/user-attachments/assets/26523474-0cc4-4d1a-8e5c-e600898c7470" /></p>
+
+- Bước 2: Kiểm tra file
+
+
 
 
