@@ -261,9 +261,47 @@ requirements.txt
 
 <img width="1410" height="745" alt="{4A182B01-1A62-4CB8-BEFD-27E95C016FF4}" src="https://github.com/user-attachments/assets/6721c93a-37c3-4e8f-90b9-8cb3125a1064" /></p>
 
-👉 Sau khi click sẽ hiện thông báo 
+👉 Sau khi click sẽ hiện thông báo đồng thời trên ubuntu cũng thông báo **You have successfully logged in** và sinh ra file .pem
 
 <img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/75956c0e-12e7-4157-8af1-d35d8790224f" /></p>
+
+<img width="1045" height="744" alt="{581C8B6F-168F-43BA-B53E-A033F9BB80EE}" src="https://github.com/user-attachments/assets/b1ac52d5-d13f-484e-819b-08f1df45d9b1" /></p>
+
+---
+
+## 20: TẠO TUNNEL
+
+- Chạy lệnh: `cloudflared tunnel create camdo-tunnel` sẽ ra 1 dãy id
+
+<img width="832" height="602" alt="{C8CE2927-5BEA-4EB0-A962-4894914EA46A}" src="https://github.com/user-attachments/assets/f947d4e3-0234-4070-b6f1-59bd598607d0" /></p>
+
+- Tạo file config.yml bằng lệnh `nano ~/.cloudflared/config.yml`
+
+<img width="1091" height="822" alt="{366841DA-4FB7-4FFB-AFF4-EAA9EF845C75}" src="https://github.com/user-attachments/assets/8d8e3f4d-c870-4567-b1e3-1d3fc68db2bc" /></p>
+
+- Thêm nội dung sau ( Vì dùng chung đường hầm với web cũ nên không cần thêm id, có thể dùng chung ip với web cũ)
+
+<img width="829" height="600" alt="{C3765F71-80C9-41AE-9A3B-260C458973CB}" src="https://github.com/user-attachments/assets/4b7da615-43bc-42ea-ab5f-add2b4d5623a" /></p>
+
+---
+
+## 21: CHẠY TUNNEL
+
+- Chạy lệnh `cloudflared tunnel run camdo-tunnel`
+
+<img width="1139" height="827" alt="{78CE7D21-BF3A-4AE4-B399-CFFC0FCC4E9A}" src="https://github.com/user-attachments/assets/15ffb973-77e0-48d5-bfc5-ae5f684a4f65" /></p>
+
+- Truy cập http://camdo.ducduong.id.vn
+
+<img width="1918" height="1020" alt="{B80F327C-3F48-454C-97D0-074B51A09A8C}" src="https://github.com/user-attachments/assets/5c2ea192-6b21-4a1f-96ec-8b9104665dbb" /></p>
+
+
+
+
+- 
+
+
+
 
 
 
