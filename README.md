@@ -85,8 +85,19 @@
 
 <img width="1171" height="663" alt="{D74BE14D-7AC8-470E-8073-DFDCC0EBD8E4}" src="https://github.com/user-attachments/assets/26523474-0cc4-4d1a-8e5c-e600898c7470" /></p>
 
-- Bước 2: Kiểm tra file
+- Bước 2: Kiểm tra file `ls django`
 
+<img width="1148" height="681" alt="{83F00666-65FC-4042-82ED-AD4BCE456A5A}" src="https://github.com/user-attachments/assets/abb07f6b-6741-48ad-a383-b56ce9cac795" /></p>
+
+👉 Kết quả phải thấy
+
+manage.py
+
+pawnshop
+
+Dockerfile
+
+requirements.txt
 
 
 
