@@ -5,6 +5,92 @@
 
 ---
 
+# Giới thiệu hệ thống
+
+Hệ thống quản lý tiệm cầm đồ được xây dựng bằng:
+
+- Django
+- MariaDB
+- Docker
+- phpMyAdmin
+- Cloudflare Tunnel
+
+---
+
+# Chức năng hệ thống
+
+## Django + MariaDB chạy trên Docker
+
+Hệ thống sử dụng:
+
+- Django để xây dựng website
+- MariaDB để lưu trữ cơ sở dữ liệu
+- Docker Compose để quản lý các containers
+
+Các service chính:
+
+- django
+- mariadb
+- phpmyadmin
+
+---
+
+## Django Admin hỗ trợ CRUD dữ liệu
+
+Trang Admin của Django cho phép:
+
+- Thêm dữ liệu
+- Sửa dữ liệu
+- Xóa dữ liệu
+- Quản lý khách hàng
+- Quản lý giao dịch cầm đồ
+
+Ngoài ra:
+- Các khóa ngoại (Foreign Key) được chọn bằng dropdown text
+- Database thực tế lưu ID khóa ngoại
+
+---
+
+## Template + View + Context
+
+Trang chủ sử dụng:
+
+- Django Template
+- Django View
+- Context Data
+
+để hiển thị danh sách các con nợ đến hạn trả.
+
+Thông tin hiển thị gồm:
+
+- Tên khách hàng
+- CCCD
+- Tài sản thế chấp
+- Số tiền vay
+- Lãi suất
+- Tổng tiền phải trả
+- Trạng thái đã trả/chưa trả
+
+---
+
+## Public website bằng Cloudflare Tunnel
+
+Website được public ra Internet thông qua Cloudflare Tunnel.
+
+Subdomain demo:
+
+http://camdo.ducduong.id.vn
+
+---
+
+# TỔ CHỨC CSDL CHO HỆ THỐNG QUẢN LÝ TIỆM CẦM ĐỒ
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/298705ac-a2c3-4f8a-8c31-87345b11806e" /></P>
+
+---
+
+# QUY TRÌNH LÀM BÀI
+
 ## 1: CHUẨN BỊ UBUNTU
 
 - Kiểm tra phiên bản Docker `docker --version`
