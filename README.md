@@ -47,7 +47,7 @@
 
 - Bước 2: Dán nội dung sau
 
-<img width="991" height="671" alt="{E79F6C5D-B041-49D1-AD38-F1E7A486CD2A}" src="https://github.com/user-attachments/assets/2d90bc7e-3f9f-4884-ae54-c1ce9a8a15a8" /></p>
+<img width="1920" height="1080" alt="{B7846362-23A6-48AD-8BAF-AFE0C162F458}" src="https://github.com/user-attachments/assets/4f675d8b-b495-40b8-ac2c-87037064aaa5" /></p>
 
 ---
 
