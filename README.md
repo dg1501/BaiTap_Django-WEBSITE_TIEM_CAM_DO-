@@ -133,7 +133,7 @@ requirements.txt
 
 - Bước 2: Thêm nội dung
 
-<img width="1302" height="797" alt="{287D4B98-57C0-4DF4-A8F2-D54804CF87B1}" src="https://github.com/user-attachments/assets/339d97fa-3551-41ef-9478-c365130d4b03" /></p>
+<img width="1920" height="1080" alt="{4B281D34-4D1A-46DF-94C6-98EF4FF7E389}" src="https://github.com/user-attachments/assets/81d8e382-4604-483b-b51a-18d5343b9ee0" /></p>
 
 - Bước 3: Đăng ký model vào admin bằng lệnh `nano django/management/admin.py`
 
