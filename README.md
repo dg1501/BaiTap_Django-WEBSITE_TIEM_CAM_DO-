@@ -187,7 +187,7 @@ requirements.txt
 
 2) Thêm Giao dịch
 
-<img width="1920" height="1020" alt="{96D78736-36C0-4E62-BD1B-0D7261BBD0EE}" src="https://github.com/user-attachments/assets/f9461308-a2d4-43ed-8ce2-8ea6b83aeb30" /></p>
+<img width="1920" height="1024" alt="{C166D40E-851D-4C05-8FB8-8A6B156C15AC}" src="https://github.com/user-attachments/assets/8fea85d7-a498-4e4c-a321-55f1173e3dca" /></p>
 
 ---
 
