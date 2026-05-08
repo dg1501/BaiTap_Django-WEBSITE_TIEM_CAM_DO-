@@ -37,7 +37,7 @@
 
 - Bước 3: Thêm nội dung cho File **dockerfile**
 
-<img width="1258" height="830" alt="{4CFBB9EE-B51F-4841-9CEF-627F09D91C6F}" src="https://github.com/user-attachments/assets/5430b5a3-ee1f-4a13-8935-8592139c4d40" /></P>
+<img width="1920" height="1080" alt="{0ECB0052-AA13-4B1B-B088-A3A4A8F581FB}" src="https://github.com/user-attachments/assets/2111aaf9-7124-4765-a38f-ace7372e7538" /></p>
 
 ---
 
