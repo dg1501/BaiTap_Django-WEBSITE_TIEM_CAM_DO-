@@ -453,6 +453,17 @@ Ví dụ:
 
 <img width="1919" height="1024" alt="{CB1B31AD-FF38-4402-811D-71FE2A888201}" src="https://github.com/user-attachments/assets/adc678b5-01ef-44b9-ae79-ac7396afbbac" /></p>
 
+---
+
+## TEST TRÊN THIẾT BỊ KHÁC KHÔNG SỬ DỤNG WIFI 
+
+<img width="870" height="1883" alt="image" src="https://github.com/user-attachments/assets/d2b1c256-96c2-4087-8fe5-eb12eb164d34" /></P>
+
+<img width="870" height="1883" alt="image" src="https://github.com/user-attachments/assets/48a05110-4934-4796-9740-efa4c26f2437" /></P>
+
+<img width="870" height="1883" alt="image" src="https://github.com/user-attachments/assets/3378c732-9431-419c-92cb-2641f498131f" /></P>
+
+
 
 
 
