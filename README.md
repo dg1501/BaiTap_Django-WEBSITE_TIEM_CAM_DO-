@@ -219,7 +219,7 @@ requirements.txt
 
 - Bước 4: Tạo file views.py `nano django/management/views.py`
 
-<img width="1141" height="826" alt="{3444BC36-CA06-419F-8820-D7B977DEABAA}" src="https://github.com/user-attachments/assets/155ee429-8891-432f-a08b-b195609341dc" /></p>
+<img width="1369" height="999" alt="{73596296-700A-4F23-B51F-232CE9D428F7}" src="https://github.com/user-attachments/assets/d6a087a6-b3da-43cf-9e93-7a6e8dc5c740" /></p>
 
 - Bước 5: Tạo file urls.py `nano django/pawnshop/urls.py`
 
@@ -293,7 +293,16 @@ requirements.txt
 
 - Truy cập http://camdo.ducduong.id.vn
 
-<img width="1918" height="1020" alt="{B80F327C-3F48-454C-97D0-074B51A09A8C}" src="https://github.com/user-attachments/assets/5c2ea192-6b21-4a1f-96ec-8b9104665dbb" /></p>
+<img width="1920" height="1020" alt="{B978C107-B9F9-4303-8BAF-955C9C19EA54}" src="https://github.com/user-attachments/assets/e908fcf7-0622-488b-9cae-f1df79285f52" /></P>
+
+👉 Sau khi truy cập domain -> login bằng tài khoản admin -> có thể tiến hành ( thêm + sửa + xoá ) -> có thể quản lý bằng cách "xem danh sách con nợ"
+
+<img width="1402" height="746" alt="{90AE0CA1-62A1-489B-8C36-17762A4296B4}" src="https://github.com/user-attachments/assets/0262cddd-1489-4e4a-83e4-426fb1b8996a" /></p>
+
+<img width="1919" height="1024" alt="{CB1B31AD-FF38-4402-811D-71FE2A888201}" src="https://github.com/user-attachments/assets/adc678b5-01ef-44b9-ae79-ac7396afbbac" /></p>
+
+
+
 
 
 
