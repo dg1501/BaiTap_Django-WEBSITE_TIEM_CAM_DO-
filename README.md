@@ -199,11 +199,65 @@ requirements.txt
 
 - Kiểm tra các bảng
 
+a) Bảng khách hàng
+
 <img width="1920" height="1017" alt="{EE9EBC7F-45DB-48E4-90E5-5D4D7F02EEB0}" src="https://github.com/user-attachments/assets/86987a98-4899-4780-8f31-5b02f606c4d8" /></p>
+
+- Bảng `management_khachhang` dùng để lưu thông tin khách hàng:
+
+- Tên khách hàng
+  
+- CCCD
+  
+- Địa chỉ
+  
+- Số điện thoại
+
+- Khóa chính (Primary Key):
+  
+- **`id`**
+
+<img width="1920" height="1023" alt="{A88A45EB-F1ED-4B42-BFEA-FDA83C88C432}" src="https://github.com/user-attachments/assets/40ca0cab-0ed0-468b-9dd5-999139eac075" /></p>
+
+b) Bảng giao dịch 
 
 <img width="1920" height="1027" alt="{F57847B3-F13B-4651-B077-E455C71635BC}" src="https://github.com/user-attachments/assets/98000560-6577-4172-bb5b-9e4a2652efc5" /></p>
 
+Bảng `management_giaodich` dùng để quản lý:
+
+- Khách hàng cầm đồ
+  
+- Tài sản thế chấp
+  
+- Số tiền vay
+  
+- Deadline trả nợ
+  
+- Lãi suất
+  
+- Trạng thái đã trả/chưa trả
+
+Foreign Key:
+
+- **`khach_hang_id`**
+  
+- **`chi_tiet_tai_san_id`**
+
+Database thực tế lưu ID khóa ngoại thay vì text.
+
+<img width="1920" height="1022" alt="{7A7C3940-E3EC-4557-BD5A-85D5E675A78C}" src="https://github.com/user-attachments/assets/9755a072-a8be-4d31-941c-8e50a0d00568" /></p>
+
+c) Bảng Mô tả tài sản
+
 <img width="1920" height="1022" alt="{A18F0037-4DA6-4C50-BFC3-7C384E6DB141}" src="https://github.com/user-attachments/assets/76b2e438-2f40-4cad-ae69-df7ddb28485e" /></p>
+
+Bảng `management_motataisan` dùng để lưu mô tả chi tiết tài sản thế chấp.
+
+Khóa chính:
+
+- **`id`**
+
+<img width="1916" height="1022" alt="{277F16E4-F2E9-46F9-B512-93E8EADE933E}" src="https://github.com/user-attachments/assets/c1c2ae76-1713-4af2-89da-4aea4efa58d3" /></p>
 
 ---
 
