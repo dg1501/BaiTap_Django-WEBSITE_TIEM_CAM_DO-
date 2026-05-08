@@ -259,6 +259,18 @@ Khóa chính:
 
 <img width="1916" height="1022" alt="{277F16E4-F2E9-46F9-B512-93E8EADE933E}" src="https://github.com/user-attachments/assets/c1c2ae76-1713-4af2-89da-4aea4efa58d3" /></p>
 
+d) Kiểm chứng Foreign Key
+
+Trong Django Admin người dùng chọn bằng tên,
+
+nhưng trong MariaDB hệ thống lưu bằng ID khóa ngoại.
+
+Ví dụ:
+- `khach_hang_id = 1`
+- `chi_tiet_tai_san_id = 1`
+
+<img width="1320" height="711" alt="{2CEB0188-AB8E-4850-A628-A0171B425662}" src="https://github.com/user-attachments/assets/1b591e0d-9f6e-46e0-94f8-a72cc39733f2" /></p>
+
 ---
 
 ## 16: TẠO TEMPLATE HTML
