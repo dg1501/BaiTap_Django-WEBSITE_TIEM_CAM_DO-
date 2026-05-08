@@ -381,7 +381,7 @@ Ví dụ:
 
 ## 17: TEST WEB
 
-- Truy cập địa chỉ 'http://172.31.174.131:8000/`
+- Truy cập địa chỉ 'http://<ip_ubuntu>:8000/`
   
 <img width="1920" height="1029" alt="{50C5AA8C-E753-4E64-A331-C358D3D4D7E3}" src="https://github.com/user-attachments/assets/a2d1fd3d-5cd1-42e6-9861-86aabb4418bc" /></p>
 
